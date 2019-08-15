@@ -13,7 +13,7 @@ class Super_Class                                  //  Super class.
  public: 
  Super_Class(std::string n){
      Name = n;
-	   display();
+     display();
      }
 virtual void display()  
  {   
