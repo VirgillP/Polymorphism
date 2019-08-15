@@ -24,7 +24,7 @@ class Class_B : public Super_Class                       //  Inherit class .
 public:  
 Class_B(std::string n) : Super_Class(n){}
 void display()  
- {         std::cout<< Name << " chosed by Class B";  
+ {         std::cout<< Name << " chosen by Class B";  
  }  
 };
 
@@ -34,7 +34,7 @@ void display()
 public:  
 Class_C(std::string n) : Super_Class(n){}
 void display()  
- {         std::cout << Name << "chosed by Class C";  
+ {         std::cout << Name << "chosen by Class C";  
  }
 };
 
